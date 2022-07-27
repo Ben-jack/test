@@ -1,0 +1,167 @@
+body {
+    background-color: #DBDADB;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover strong {
+    color: #2fc86fe0;
+}
+
+a:hover p {
+    color: #000000;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+
+/* 重要，浮动清除 */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zooom: 1;
+}
+
+.w {
+    width: 100%;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+}
+
+.box div {
+    display: block;
+    float: left;
+}
+
+
+/* 左边导航star */
+
+.left-nav {
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    width: 20%;
+    height: 100%!important;
+}
+
+.logo {
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+}
+
+.nav-1 {
+    width: 100%;
+    margin-left: -50px;
+}
+
+.nav-1 ul {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-1 a:hover li {
+    color: rgb(255, 0, 0);
+}
+
+.nav-1 ul li {
+    float: none;
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-align: center;
+    color: rgb(93, 93, 93);
+}
+
+.current {
+    color: rgb(0, 0, 0)!important;
+    background-color: #fff;
+}
+
+
+/* 右边内容star */
+
+.right-bd {
+    width: 80%;
+    padding-left: 20%;
+}
+
+.right-bd div {
+    float: none;
+}
+
+.box_1 {
+    margin-top: 25px;
+}
+
+.box-hd {
+    height: 20px;
+}
+
+.box-hd h4 {
+    line-height: 20px;
+    padding-left: 50px;
+}
+
+.box-bd li {
+    width: 240px;
+    height: 60px;
+    padding-left: 10px;
+    margin: 5px;
+    text-align: left;
+    border-radius: 10px 10px;
+    background-color: #ffffff;
+}
+
+.name {
+    float: right;
+    width: 180px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: -45px;
+    margin-left: 50px;
+    color: #000;
+}
+
+.name p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #929191;
+}
+
+
+/* 回到顶部按钮 */
+
+#backTop {
+    position: fixed;
+    display: block;
+    background: url(../../images/scrollup.png);
+    width: 50px;
+    height: 50px;
+    z-index: 10001;
+    right: 0;
+    bottom: 0;
+}
